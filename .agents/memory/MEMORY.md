@@ -1,0 +1,1 @@
+- [Tailwind v4 @theme spacing](tailwind-v4-theme-spacing.md) — --spacing-* in @theme corrupts max-w-*, gap-*, p-* utilities; keep spacing/radius tokens in plain :root only.
