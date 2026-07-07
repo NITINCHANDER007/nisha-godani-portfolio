@@ -1,0 +1,162 @@
+import type { Award, Credential, GlobalRecognition } from '@/types'
+
+export const globalRecognition: GlobalRecognition = {
+  id: 'stanford-top2',
+  name: 'Top 2% Scientist in the World',
+  category: 'Physics & Astronomy',
+  authority: 'Stanford University Citation Impact Ranking',
+  duration: 'Three Consecutive Years',
+  tooltipNote:
+    'Based on the annual global citation impact ranking compiled by Stanford University and Elsevier, identifying the top 2% of scientists worldwide by citation metrics in their respective fields.',
+  isVerified: true,
+  badgeDescription:
+    'Recognized among the top 2% of scientists globally in Physics & Astronomy for three consecutive years, based on citation impact analysis by Stanford University.',
+}
+
+export const credentials: Credential[] = [
+  {
+    id: 'net-2012',
+    examName: 'NET',
+    fullName: 'National Eligibility Test',
+    year: 2012,
+    allIndiaRank: 40,
+    authority: 'University Grants Commission (UGC)',
+    description: 'Qualified with All India Rank 40',
+    significance:
+      'Demonstrates mastery of mathematics at the highest national standard — the same examination Make Maths Easy students prepare for.',
+  },
+  {
+    id: 'gate-2012',
+    examName: 'GATE',
+    fullName: 'Graduate Aptitude Test in Engineering',
+    year: 2012,
+    allIndiaRank: 90,
+    authority: 'Indian Institutes of Technology (IITs)',
+    description: 'Qualified with All India Rank 90',
+    significance:
+      'Among the top 0.1% of all GATE Mathematics candidates — providing unparalleled insight into what the examination tests.',
+  },
+  {
+    id: 'jam-2009',
+    examName: 'JAM',
+    fullName: 'Joint Admission Test for M.Sc.',
+    year: 2009,
+    allIndiaRank: 166,
+    authority: 'Indian Institutes of Technology (IITs)',
+    description: 'Qualified with All India Rank 166',
+    significance:
+      'The foundation of Dr. Godani\'s competitive examination journey — qualifying for IIT-level M.Sc. programmes.',
+  },
+]
+
+export const awards: Award[] = [
+  {
+    id: 'chancellor-award',
+    name: 'Chancellor Award',
+    awardingBody: 'GLA University, Mathura',
+    year: '3 Consecutive Years',
+    session: '2019–20, 2020–21, 2021–22',
+    category: 'teaching',
+    tier: 'chancellor',
+    description:
+      'Highest institutional honor at GLA University, awarded for Excellent Performance in Classroom Teaching for three consecutive academic sessions.',
+    icon: 'Star',
+  },
+  {
+    id: 'best-teacher-2019-20',
+    name: 'Best Teacher Award',
+    awardingBody: 'GLA University, Mathura',
+    year: 2020,
+    session: '2019–2020',
+    category: 'teaching',
+    tier: 'standard',
+    description: 'Awarded for Excellence in Classroom Teaching in the session 2019–2020.',
+    icon: 'ChalkboardTeacher',
+  },
+  {
+    id: 'best-researcher-2019-20',
+    name: 'Best Researcher Award',
+    awardingBody: 'GLA University, Mathura',
+    year: 2020,
+    session: '2019–2020',
+    category: 'research',
+    tier: 'standard',
+    description: 'Awarded for Significant Research Contribution in session 2019–2020.',
+    icon: 'Flask',
+  },
+  {
+    id: 'best-researcher-2018-19',
+    name: 'Best Researcher Award',
+    awardingBody: 'GLA University, Mathura',
+    year: 2019,
+    session: '2018–2019',
+    category: 'research',
+    tier: 'standard',
+    description: 'Awarded for Significant Research Contribution in session 2018–2019.',
+    icon: 'Flask',
+  },
+  {
+    id: 'academic-appreciation-2021',
+    name: 'Academic Appreciation Award',
+    awardingBody: 'GLA University, Mathura',
+    year: 2021,
+    category: 'teaching',
+    tier: 'standard',
+    description: 'Awarded for Excellence in Classroom Teaching in the year 2021.',
+    icon: 'Medal',
+  },
+  {
+    id: 'research-appreciation-2020',
+    name: 'Research Appreciation Award',
+    awardingBody: 'GLA University, Mathura',
+    year: 2020,
+    category: 'research',
+    tier: 'standard',
+    description: 'Awarded for Significant Contribution in Research in the year 2020.',
+    icon: 'Atom',
+  },
+  {
+    id: 'academic-appreciation-2020',
+    name: 'Academic Appreciation Award',
+    awardingBody: 'GLA University, Mathura',
+    year: 2020,
+    category: 'teaching',
+    tier: 'standard',
+    description: 'Awarded for Excellence in Classroom Teaching in the year 2020.',
+    icon: 'Medal',
+  },
+  {
+    id: 'appreciation-teaching-research-2021-22',
+    name: 'Appreciation Award',
+    awardingBody: 'GLA University, Mathura',
+    year: 2022,
+    session: '2021–22',
+    category: 'academic-excellence',
+    tier: 'standard',
+    description:
+      'Awarded for Extra-Ordinary Performance in Teaching & Research for the Academic Session 2021–22.',
+    icon: 'Trophy',
+  },
+  {
+    id: 'appreciation-teaching-2021-22',
+    name: 'Appreciation Award',
+    awardingBody: 'GLA University, Mathura',
+    year: 2022,
+    session: '2021–22',
+    category: 'teaching',
+    tier: 'standard',
+    description: 'Awarded for Excellence in Classroom Teaching for the Academic Session 2021–22.',
+    icon: 'ChalkboardTeacher',
+  },
+  {
+    id: 'directors-medal-2011',
+    name: "Director's Medal",
+    awardingBody: 'Dayalbagh Educational Institute (Deemed University)',
+    year: 2011,
+    category: 'academic-excellence',
+    tier: 'chancellor',
+    description:
+      'Awarded for Securing Highest Marks in M.Phil. (Mathematics) Examination — 2011.',
+    icon: 'GraduationCap',
+  },
+]
