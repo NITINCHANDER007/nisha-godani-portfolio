@@ -8,7 +8,7 @@ import { staggerContainer, fadeUp } from '@/lib/animations'
 export function CredentialTrio() {
   return (
     <div className="mb-16">
-      <SectionEyebrow label="National Qualifying Examinations" color="blue" />
+      <SectionEyebrow label="National Qualifying Examinations" color="teal" />
       <p className="mb-8 max-w-2xl text-body text-text-secondary">
         Among the most competitive mathematics examinations in India — qualified at
         national top ranks.
