@@ -1,0 +1,14 @@
+{
+  "name": "Dr. Nisha Godani — Mathematician, Researcher, Educator",
+  "short_name": "Dr. Nisha Godani",
+  "description": "Assistant Professor of Mathematics, PhD researcher in wormhole physics, and founder of Make Maths Easy Classes, Indore.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#F4F1E9",
+  "theme_color": "#C9A84C",
+  "icons": [
+    { "src": "/icons/favicon-16x16.png", "sizes": "16x16", "type": "image/png" },
+    { "src": "/icons/favicon-32x32.png", "sizes": "32x32", "type": "image/png" },
+    { "src": "/icons/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}

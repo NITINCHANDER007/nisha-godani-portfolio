@@ -1,0 +1,235 @@
+/* ═══════════════════════════════════════════════════════════════
+   DESIGN TOKENS — Dr. Nisha Godani Website
+   All four themes defined via CSS custom properties.
+   Theme applied via data-theme attribute on <html>.
+   Default: academic-ivory (light, prestigious)
+═══════════════════════════════════════════════════════════════ */
+
+:root,
+[data-theme="academic-ivory"] {
+  /* Surfaces */
+  --bg-primary: #F4F1E9;
+  --bg-secondary: #EDEAE0;
+  --bg-card: #FFFFFF;
+  --bg-card-hover: #FAFAFA;
+  --bg-dark: #0A0F1E;
+  --bg-dark-secondary: #111827;
+  --bg-mme: #FDF6EC;
+
+  /* Text */
+  --text-primary: #1C2340;
+  --text-secondary: #374151;
+  --text-muted: #6B7280;
+  --text-inverse: #F8F9FC;
+  --text-inverse-muted: rgba(248, 249, 252, 0.7);
+
+  /* Accents */
+  --accent-gold: #C9A84C;
+  --accent-gold-hover: #E8B86D;
+  --accent-gold-subtle: rgba(201, 168, 76, 0.12);
+  --accent-gold-border: rgba(201, 168, 76, 0.35);
+  --accent-teal: #2DD4BF;
+  --accent-teal-subtle: rgba(45, 212, 191, 0.1);
+  --accent-rose: #F472B6;
+  --accent-rose-subtle: rgba(244, 114, 182, 0.1);
+  --accent-blue: #3B82F6;
+  --accent-blue-subtle: rgba(59, 130, 246, 0.1);
+
+  /* Semantic */
+  --sci-green: #10B981;
+  --sci-green-bg: rgba(16, 185, 129, 0.1);
+  --scopus-blue: #3B82F6;
+  --scopus-blue-bg: rgba(59, 130, 246, 0.1);
+
+  /* Borders */
+  --border: #E5E7EB;
+  --border-subtle: rgba(0, 0, 0, 0.06);
+  --border-accent: rgba(201, 168, 76, 0.3);
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.07);
+  --shadow-lift: 0 16px 48px rgba(0, 0, 0, 0.14);
+  --shadow-glow-gold: 0 0 24px rgba(201, 168, 76, 0.2);
+  --shadow-glow-teal: 0 0 32px rgba(45, 212, 191, 0.12);
+
+  /* Hero (always dark regardless of theme) */
+  --hero-bg: #0A0F1E;
+  --hero-bg-secondary: #111827;
+
+  /* Navbar */
+  --navbar-bg-scrolled: rgba(244, 241, 233, 0.92);
+  --navbar-border-scrolled: rgba(0, 0, 0, 0.08);
+  --navbar-text: #1C2340;
+}
+
+[data-theme="deep-navy"] {
+  /* Surfaces */
+  --bg-primary: #0A0F1E;
+  --bg-secondary: #0F1629;
+  --bg-card: #111827;
+  --bg-card-hover: #1A2438;
+  --bg-dark: #060A14;
+  --bg-dark-secondary: #080D1A;
+  --bg-mme: #1A0D00;
+
+  /* Text */
+  --text-primary: #F8F9FC;
+  --text-secondary: #E2E8F0;
+  --text-muted: #94A3B8;
+  --text-inverse: #0A0F1E;
+  --text-inverse-muted: rgba(10, 15, 30, 0.7);
+
+  /* Accents — unchanged from default */
+  --accent-gold: #C9A84C;
+  --accent-gold-hover: #E8B86D;
+  --accent-gold-subtle: rgba(201, 168, 76, 0.12);
+  --accent-gold-border: rgba(201, 168, 76, 0.35);
+  --accent-teal: #2DD4BF;
+  --accent-teal-subtle: rgba(45, 212, 191, 0.1);
+  --accent-rose: #F472B6;
+  --accent-rose-subtle: rgba(244, 114, 182, 0.12);
+  --accent-blue: #3B82F6;
+  --accent-blue-subtle: rgba(59, 130, 246, 0.1);
+
+  /* Semantic */
+  --sci-green: #10B981;
+  --sci-green-bg: rgba(16, 185, 129, 0.12);
+  --scopus-blue: #3B82F6;
+  --scopus-blue-bg: rgba(59, 130, 246, 0.12);
+
+  /* Borders */
+  --border: rgba(255, 255, 255, 0.08);
+  --border-subtle: rgba(255, 255, 255, 0.04);
+  --border-accent: rgba(201, 168, 76, 0.3);
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --shadow-card: 0 8px 32px rgba(0, 0, 0, 0.4);
+  --shadow-lift: 0 16px 48px rgba(0, 0, 0, 0.6);
+  --shadow-glow-gold: 0 0 32px rgba(201, 168, 76, 0.25);
+  --shadow-glow-teal: 0 0 32px rgba(45, 212, 191, 0.15);
+
+  /* Hero */
+  --hero-bg: #060A14;
+  --hero-bg-secondary: #0A0F1E;
+
+  /* Navbar */
+  --navbar-bg-scrolled: rgba(10, 15, 30, 0.92);
+  --navbar-border-scrolled: rgba(255, 255, 255, 0.06);
+  --navbar-text: #F8F9FC;
+}
+
+[data-theme="dark-research"] {
+  /* Surfaces */
+  --bg-primary: #0D1117;
+  --bg-secondary: #0D1117;
+  --bg-card: #161B22;
+  --bg-card-hover: #1C2128;
+  --bg-dark: #010409;
+  --bg-dark-secondary: #0D1117;
+  --bg-mme: #0D1117;
+
+  /* Text */
+  --text-primary: #F0F6FC;
+  --text-secondary: #C9D1D9;
+  --text-muted: #8B949E;
+  --text-inverse: #0D1117;
+  --text-inverse-muted: rgba(13, 17, 23, 0.7);
+
+  /* Accents — teal replaces gold as primary in this theme */
+  --accent-gold: #2DD4BF;
+  --accent-gold-hover: #5EEAD4;
+  --accent-gold-subtle: rgba(45, 212, 191, 0.1);
+  --accent-gold-border: rgba(45, 212, 191, 0.3);
+  --accent-teal: #2DD4BF;
+  --accent-teal-subtle: rgba(45, 212, 191, 0.1);
+  --accent-rose: #F472B6;
+  --accent-rose-subtle: rgba(244, 114, 182, 0.1);
+  --accent-blue: #58A6FF;
+  --accent-blue-subtle: rgba(88, 166, 255, 0.1);
+
+  /* Semantic */
+  --sci-green: #3FB950;
+  --sci-green-bg: rgba(63, 185, 80, 0.1);
+  --scopus-blue: #58A6FF;
+  --scopus-blue-bg: rgba(88, 166, 255, 0.1);
+
+  /* Borders */
+  --border: rgba(240, 246, 252, 0.1);
+  --border-subtle: rgba(240, 246, 252, 0.05);
+  --border-accent: rgba(45, 212, 191, 0.3);
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.4);
+  --shadow-card: 0 4px 16px rgba(0, 0, 0, 0.5);
+  --shadow-lift: 0 16px 48px rgba(0, 0, 0, 0.7);
+  --shadow-glow-gold: 0 0 24px rgba(45, 212, 191, 0.2);
+  --shadow-glow-teal: 0 0 24px rgba(45, 212, 191, 0.2);
+
+  /* Hero */
+  --hero-bg: #010409;
+  --hero-bg-secondary: #0D1117;
+
+  /* Navbar */
+  --navbar-bg-scrolled: rgba(13, 17, 23, 0.95);
+  --navbar-border-scrolled: rgba(240, 246, 252, 0.06);
+  --navbar-text: #F0F6FC;
+}
+
+[data-theme="elegant-light"] {
+  /* Surfaces */
+  --bg-primary: #FFFFFF;
+  --bg-secondary: #F8F9FC;
+  --bg-card: #F8F9FC;
+  --bg-card-hover: #F1F5F9;
+  --bg-dark: #111827;
+  --bg-dark-secondary: #1E293B;
+  --bg-mme: #F8F9FC;
+
+  /* Text */
+  --text-primary: #111827;
+  --text-secondary: #374151;
+  --text-muted: #6B7280;
+  --text-inverse: #FFFFFF;
+  --text-inverse-muted: rgba(255, 255, 255, 0.75);
+
+  /* Accents — deep academic blue replaces gold */
+  --accent-gold: #1E3A5F;
+  --accent-gold-hover: #2D5180;
+  --accent-gold-subtle: rgba(30, 58, 95, 0.07);
+  --accent-gold-border: rgba(30, 58, 95, 0.25);
+  --accent-teal: #0D9488;
+  --accent-teal-subtle: rgba(13, 148, 136, 0.08);
+  --accent-rose: #DB2777;
+  --accent-rose-subtle: rgba(219, 39, 119, 0.08);
+  --accent-blue: #1D4ED8;
+  --accent-blue-subtle: rgba(29, 78, 216, 0.08);
+
+  /* Semantic */
+  --sci-green: #047857;
+  --sci-green-bg: rgba(4, 120, 87, 0.08);
+  --scopus-blue: #1D4ED8;
+  --scopus-blue-bg: rgba(29, 78, 216, 0.08);
+
+  /* Borders */
+  --border: #E5E7EB;
+  --border-subtle: rgba(0, 0, 0, 0.04);
+  --border-accent: rgba(30, 58, 95, 0.2);
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-card: 0 2px 12px rgba(0, 0, 0, 0.05);
+  --shadow-lift: 0 12px 36px rgba(0, 0, 0, 0.1);
+  --shadow-glow-gold: 0 0 20px rgba(30, 58, 95, 0.12);
+  --shadow-glow-teal: 0 0 20px rgba(13, 148, 136, 0.1);
+
+  /* Hero */
+  --hero-bg: #111827;
+  --hero-bg-secondary: #1E293B;
+
+  /* Navbar */
+  --navbar-bg-scrolled: rgba(255, 255, 255, 0.95);
+  --navbar-border-scrolled: rgba(0, 0, 0, 0.06);
+  --navbar-text: #111827;
+}
