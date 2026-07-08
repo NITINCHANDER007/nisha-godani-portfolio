@@ -2,7 +2,7 @@
   "framework": null,
   "installCommand": "pnpm install",
   "buildCommand": "pnpm --filter @workspace/nisha-godani run build",
-  "outputDirectory": "artifacts/nisha-godani/dist",
+  "outputDirectory": "artifacts/nisha-godani/dist/public",
   "regions": ["bom1"],
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }

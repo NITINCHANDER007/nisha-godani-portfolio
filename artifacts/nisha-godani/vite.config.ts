@@ -5,29 +5,34 @@ import { defineConfig } from 'vite';
 
 import runtimeErrorOverlay from '@replit/vite-plugin-runtime-error-modal';
 
-const rawPort = process.env.PORT;
+// BASE_PATH is set by Replit's artifact routing (artifact.toml) so the app
+// can be served under a path prefix. Standalone hosts (e.g. Vercel) don't
+// set it, so default to root — this preserves Replit's behavior (which
+// explicitly sets BASE_PATH="/" for this artifact) while letting a plain
+// `vite build` work anywhere else.
+const basePath = process.env.BASE_PATH ?? '/';
 
-if (!rawPort) {
-  throw new Error(
-    'PORT environment variable is required but was not provided.',
-  );
-}
+export default defineConfig(async ({ command }) => {
+  // PORT is only needed for the dev server / preview server, not for a
+  // production `vite build`, which doesn't bind to any port.
+  let port: number | undefined;
+  if (command === 'serve') {
+    const rawPort = process.env.PORT;
 
-const port = Number(rawPort);
+    if (!rawPort) {
+      throw new Error(
+        'PORT environment variable is required but was not provided.',
+      );
+    }
 
-if (Number.isNaN(port) || port <= 0) {
-  throw new Error(`Invalid PORT value: "${rawPort}"`);
-}
+    port = Number(rawPort);
 
-const basePath = process.env.BASE_PATH;
+    if (Number.isNaN(port) || port <= 0) {
+      throw new Error(`Invalid PORT value: "${rawPort}"`);
+    }
+  }
 
-if (!basePath) {
-  throw new Error(
-    'BASE_PATH environment variable is required but was not provided.',
-  );
-}
-
-export default defineConfig({
+  return {
   base: basePath,
   plugins: [
     react(),
@@ -78,4 +83,5 @@ export default defineConfig({
     host: '0.0.0.0',
     allowedHosts: true,
   },
+  };
 });
