@@ -1050,7 +1050,7 @@ export const publications: Publication[] = [
 ]
 
 export const publicationStats = {
-  totalJournal: 49,
+  totalJournal: 50,
   totalConference: 3,
   totalCitations: 1453,
   sciPapers: 45,
