@@ -13,7 +13,7 @@ export const personalDetails: PersonalDetails = {
   country: 'India',
   tagline: 'Assistant Professor · Mathematician · Researcher',
   researchDescription:
-    'Theoretical physicist exploring wormholes, modified gravity, and the mathematical fabric of spacetime — with 49 international publications and 1,453+ citations across SCI-indexed journals.',
+    'Theoretical physicist exploring wormholes, modified gravity, and the mathematical fabric of spacetime — with 50 international publications and 1,453+ citations across SCI-indexed journals.',
   teachingDescription:
     'Award-winning educator transforming complex mathematics into accessible knowledge for students from 9th grade through postgraduate and competitive examinations.',
   fullBio: [
@@ -47,8 +47,8 @@ export const personalDetails: PersonalDetails = {
         country: 'India',
       },
       googleMapsEmbedUrl:
-        'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.1!2d75.8!3d22.6!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDM2JzAwLjAiTiA3NcKwNDgnMDAuMCJF!5e0!3m2!1sen!2sin!4v1',
-      googleMapsLink: 'https://maps.google.com/?q=Dewas+Naka,Indore,Madhya+Pradesh',
+        'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.970048220861!2d75.9036609!3d22.803573699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396303421b752689%3A0xb413ccb56c91f079!2sMake%20Maths%20Easy%20Classes%20by%20Dr%20Nisha%20Godani!5e0!3m2!1sen!2sin!4v1783710049615!5m2!1sen!2sin',
+      googleMapsLink: 'https://maps.app.goo.gl/iJdH9GJWqk8SN9pi7',
     },
   },
   socialProfiles: [
