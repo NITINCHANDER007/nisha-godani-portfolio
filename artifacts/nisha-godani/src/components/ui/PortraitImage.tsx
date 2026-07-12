@@ -41,7 +41,7 @@ export function PortraitImage({
       <img
         src={personalDetails.portrait.src}
         alt={personalDetails.portrait.alt}
-        className={cn('h-full w-full object-cover', className)}
+        className={cn('h-full w-full object-contain', className)}
         onError={() => setImgError(true)}
       />
     )
@@ -62,7 +62,7 @@ export function PortraitImage({
         <img
           src={personalDetails.portrait.src}
           alt={personalDetails.portrait.alt}
-          className="h-full w-full object-cover"
+          className="h-full w-full object-contain"
           onError={() => setImgError(true)}
         />
       )}
