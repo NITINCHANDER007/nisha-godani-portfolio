@@ -1,5 +1,3 @@
-
-
 import { motion } from 'framer-motion'
 import { Trophy, GraduationCap, Globe, BookOpen } from '@phosphor-icons/react'
 import { personalDetails } from '@/data/personal'
