@@ -13,7 +13,7 @@ const buttonVariants = cva(
         primary:
           'bg-accent-gold text-bg-dark hover:bg-accent-gold-hover hover:scale-[1.02] active:scale-[0.98] rounded-[var(--radius-base)] shadow-sm',
         secondary:
-          'bg-transparent border border-white/30 text-white hover:border-white hover:bg-white/10 rounded-[var(--radius-base)]',
+          'bg-transparent border border-accent-gold/40 text-accent-gold hover:border-accent-gold hover:bg-accent-gold/10 rounded-[var(--radius-base)]',
         ghost:
           'bg-transparent text-accent-gold hover:text-accent-gold-hover underline-offset-4 decoration-1 hover:underline px-0',
         whatsapp:
