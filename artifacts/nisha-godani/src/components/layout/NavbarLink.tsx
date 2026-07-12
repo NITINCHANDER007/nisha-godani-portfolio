@@ -19,7 +19,7 @@ export function NavbarLink({ href, label }: NavbarLinkProps) {
       aria-current={isActive ? 'page' : undefined}
       className={cn(
         'group relative py-2 text-[15px] font-medium transition-colors',
-        isActive ? 'text-accent-gold' : 'text-text-secondary hover:text-text-primary',
+        isActive ? 'text-accent-gold' : 'text-text-primary hover:text-text-primary',
       )}
     >
       {label}
