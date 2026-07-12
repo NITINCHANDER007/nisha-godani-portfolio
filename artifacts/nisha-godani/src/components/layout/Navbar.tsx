@@ -52,7 +52,7 @@ export function Navbar() {
             className="font-display flex-shrink-0 text-2xl font-semibold tracking-tight text-accent-gold transition-opacity hover:opacity-80"
             aria-label="Dr. Nisha Godani — Home"
           >
-            NG
+            aria-label="Home"
           </Link>
 
           <div className="hidden items-center gap-8 md:flex">
