@@ -4,7 +4,7 @@ export const navigationItems = [
   { label: 'Research', href: '/research' },
   { label: 'Teaching', href: '/teaching' },
   { label: 'Publications', href: '/publications' },
-  { label: 'Make Maths Easy', href: '/make-maths-easy' },
+  { label: 'Make Maths Easy Classes', href: '/make-maths-easy' },
   { label: 'About', href: '/about' },
 ] as const
 
