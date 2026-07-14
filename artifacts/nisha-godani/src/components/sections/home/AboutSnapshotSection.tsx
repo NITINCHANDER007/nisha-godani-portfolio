@@ -87,7 +87,7 @@ export function AboutSnapshotSection() {
             className="text-heading-1 font-display mb-6 text-text-primary"
           >
             A mathematician who lives in two worlds — the abstract universe of
-            wormholes and the very human world of a student struggling with calculus.
+            wormholes and the very human world of inspiring students, advancing research, and making mathematics accessible.
           </h2>
           <p className="mb-8 text-body-lg text-text-secondary">
             {personalDetails.fullBio[0]}
