@@ -45,9 +45,11 @@ function App() {
             <SkipToContent />
             <ScrollProgress />
             <Navbar />
+
+            <ScrollToTop />
+
             <Router />
             <Footer />
-            <ScrollToTop />
           </WouterRouter>
         </MotionProvider>
       </ThemeProvider>
