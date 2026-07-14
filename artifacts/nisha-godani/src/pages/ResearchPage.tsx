@@ -5,16 +5,19 @@ import { ResearchAreasGrid } from '@/components/sections/research/ResearchAreasG
 import { ResearchTimeline } from '@/components/sections/research/ResearchTimeline'
 import { FeaturedPapers } from '@/components/sections/research/FeaturedPapers'
 import { CollaborationNetwork } from '@/components/sections/research/CollaborationNetwork'
+import { ResearchCTA } from '@/components/sections/research/ResearchCTA'
 
 export default function ResearchPage() {
   return (
     <PageWrapper>
       <Breadcrumb items={[{ label: 'Research', href: '/research' }]} />
+
       <ResearchHero />
       <ResearchAreasGrid />
       <ResearchTimeline />
       <FeaturedPapers />
       <CollaborationNetwork />
+      <ResearchCTA />
     </PageWrapper>
   )
 }
