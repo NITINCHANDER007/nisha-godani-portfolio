@@ -1,11 +1,21 @@
 
 
-import { useState, useEffect } from 'react'
+import { useEffect, useState } from 'react'
+import { useLocation } from 'wouter'
 import { motion, AnimatePresence } from 'framer-motion'
 import { ArrowUp } from '@phosphor-icons/react'
 
 export function ScrollToTop() {
   const [visible, setVisible] = useState(false)
+  const [location] = useLocation()
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'instant',
+    })
+  }, [location])
 
   useEffect(() => {
     const handler = () => setVisible(window.scrollY > 600)
