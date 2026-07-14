@@ -1,5 +1,3 @@
-
-
 import { motion } from 'framer-motion'
 import { YoutubeLogo } from '@phosphor-icons/react'
 import { mmeDetails } from '@/data/mme'
@@ -41,18 +39,20 @@ export function YouTubeSection() {
       >
         {playlists.map((playlist) => (
           <motion.div key={playlist.id} variants={fadeUp}>
-              <a
-                href={playlist.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex aspect-video w-full flex-col items-center justify-center rounded-[var(--radius-md)] border border-white/10 bg-bg-dark-secondary p-6 text-center transition hover:border-accent-gold/40"
-              >
+            <a
+              href={playlist.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex aspect-video w-full flex-col items-center justify-center rounded-[var(--radius-md)] border border-white/10 bg-bg-dark-secondary p-6 text-center transition hover:border-accent-gold/40"
+            >
               <YoutubeLogo size={36} weight="fill" className="mb-3 text-[#FF0000]" />
               <p className="text-sm font-medium text-text-inverse/80">
                 {playlist.title}
               </p>
             </a>
           </motion.div>
+        ))}
+      </motion.div>
 
       <div className="mt-10 flex justify-center">
         <Button href={mmeDetails.youtube.url} variant="ghost" className="text-text-inverse">
