@@ -70,55 +70,54 @@ export const employment: Employment[] = [
 
 export const subjects: Subject[] = [
   {
-    id: 'number-theory',
-    name: 'Number Theory',
+    id: 'calculus',
+    name: 'Calculus',
     description:
-      'Divisibility, prime numbers, modular arithmetic, Diophantine equations, and number-theoretic functions — the pure mathematical foundations.',
+      'Differential calculus, integral calculus, multivariable calculus, and vector calculus for science and engineering.',
     category: 'pure-math',
-    relevantFor: ['B.Sc. Mathematics', 'M.Sc. Mathematics', 'Competitive Exams'],
+    relevantFor: ['B.Sc.', 'B.Tech', 'Competitive Exams'],
   },
   {
-    id: 'engineering-mathematics',
-    name: 'Engineering Mathematics',
+    id: 'probability-statistics',
+    name: 'Probability & Statistics',
     description:
-      'Differential equations, linear algebra, vector calculus, complex analysis, and numerical methods — the complete mathematical toolkit for engineers.',
+      'Probability theory, random variables, distributions, statistical inference, and data analysis.',
+    category: 'statistics',
+    relevantFor: ['B.Sc.', 'M.Sc.', 'Data Science'],
+  },
+  {
+    id: 'linear-algebra',
+    name: 'Linear Algebra',
+    description:
+      'Matrices, determinants, vector spaces, eigenvalues, eigenvectors, and linear transformations.',
     category: 'applied-math',
-    relevantFor: ['B.Tech', 'M.Tech', 'GATE Preparation'],
+    relevantFor: ['B.Sc.', 'B.Tech', 'M.Sc.'],
   },
   {
-    id: 'commercial-statistics',
-    name: 'Commercial Statistics',
+    id: 'discrete-mathematics',
+    name: 'Discrete Mathematics',
     description:
-      'Statistical methods for business and commerce — data collection, frequency distributions, measures of central tendency, correlation, and regression.',
-    category: 'statistics',
-    relevantFor: ['B.Com.', 'M.Com.', 'BBA'],
+      'Logic, sets, relations, graph theory, combinatorics, and mathematical reasoning.',
+    category: 'pure-math',
+    relevantFor: ['B.Tech', 'MCA', 'Competitive Exams'],
   },
   {
-    id: 'quantitative-techniques',
-    name: 'Quantitative Techniques',
+    id: 'functional-analysis',
+    name: 'Functional Analysis',
     description:
-      'Mathematical and statistical methods for management decisions — linear programming, transportation problems, game theory, and decision analysis.',
-    category: 'business-math',
-    relevantFor: ['MBA', 'BBA', 'M.Com.'],
+      'Normed spaces, Banach spaces, Hilbert spaces, linear operators, and applications.',
+    category: 'pure-math',
+    relevantFor: ['M.Sc.', 'Ph.D.', 'Research'],
   },
   {
-    id: 'quantitative-aspects-business',
-    name: 'Quantitative Aspects of Business',
+    id: 'topology',
+    name: 'Topology',
     description:
-      'Applied mathematics in business contexts — index numbers, time series analysis, interpolation, and business forecasting techniques.',
-    category: 'business-math',
-    relevantFor: ['BBA', 'B.Com.', 'MBA'],
-  },
-  {
-    id: 'statistics-decision-making',
-    name: 'Statistics for Decision Making',
-    description:
-      'Probability theory, sampling distributions, hypothesis testing, ANOVA, and statistical inference — turning data into informed decisions.',
-    category: 'statistics',
-    relevantFor: ['MBA', 'MCA', 'M.Sc.', 'Competitive Exams'],
+      'Topological spaces, continuity, compactness, connectedness, and modern mathematical structures.',
+    category: 'pure-math',
+    relevantFor: ['M.Sc.', 'Ph.D.', 'Research'],
   },
 ]
-
 export const invitedTalks: InvitedTalk[] = [
   {
     id: 'talk-wormhole-fr-2021',
