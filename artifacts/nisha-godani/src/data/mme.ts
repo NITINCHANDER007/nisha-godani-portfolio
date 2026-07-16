@@ -4,7 +4,7 @@ export const mmeDetails: MmeDetails = {
   brandName: 'Make Maths Easy Classes',
   tagline: 'Learn from a Researcher. Master Mathematics.',
   heroSubtext:
-    'Taught by a Top 2% international scientist with 49 published papers and All India Rank 40 in NET, Rank 90 in GATE. Mathematics explained with the clarity that only deep understanding can provide.',
+    'Taught by a Top 2% international scientist with 50+ published papers and All India Rank 40 in NET, Rank 90 in GATE. Mathematics explained with the clarity that only deep understanding can provide.',
   credentialHighlight:
     'Your teacher has cracked the very examinations you are preparing for — at the national top ranks.',
   phone: '+91 9039006536',
