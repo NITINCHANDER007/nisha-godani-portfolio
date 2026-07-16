@@ -63,7 +63,7 @@ export function Navbar() {
 
           <div className="flex items-center gap-3">
             <div className="hidden md:block">
-              <ThemeSwitcher />
+              {/* <ThemeSwitcher /> */}
             </div>
             <div className="hidden md:block">
               <Button href="/contact" variant="secondary" size="sm">
