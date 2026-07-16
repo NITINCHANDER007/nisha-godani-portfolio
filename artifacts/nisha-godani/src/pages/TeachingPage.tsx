@@ -51,7 +51,7 @@ export default function TeachingPage() {
           undergraduate, postgraduate, and competitive exam students.
         </p>
         <Button href="/make-maths-easy" variant="primary">
-          Explore Make Maths Easy →
+          Explore Make Maths Easy Classes →
         </Button>
       </SectionWrapper>
     </PageWrapper>
