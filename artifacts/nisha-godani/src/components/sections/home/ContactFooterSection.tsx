@@ -53,7 +53,7 @@ export function ContactFooterSection() {
           <WhatsAppButton
             phone={mmeDetails.whatsapp}
             message={mmeDetails.whatsappMessage}
-            label="Make Maths Easy — WhatsApp"
+            label="Make Maths Easy Classes — WhatsApp"
           />
           <Button
             href={`mailto:${personalDetails.contact.academic.email}`}
