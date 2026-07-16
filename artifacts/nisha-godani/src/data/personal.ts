@@ -13,7 +13,7 @@ export const personalDetails: PersonalDetails = {
   country: 'India',
   tagline: 'Assistant Professor · Mathematician · Researcher',
   researchDescription:
-    'Internationally published mathematician advancing research in gravity, wormholes, and spacetime — with 50 publications and 1,453+ citations across SCI-indexed journals.',
+    'Internationally published mathematician advancing research in gravity, wormholes, and spacetime — with 50+ publications and 1,453+ citations across SCI-indexed journals.',
   teachingDescription:
     'Award-winning educator transforming complex mathematics into accessible knowledge for students from 9th grade through postgraduate and competitive examinations.',
   fullBio: [
