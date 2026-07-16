@@ -68,7 +68,7 @@ export function TeachingSnapshotSection() {
         viewport={{ once: true, amount: 0.2 }}
         className="flex flex-col justify-center bg-bg-mme px-6 py-16 sm:px-10 md:py-20 lg:px-14"
       >
-        <SectionEyebrow label="Make Maths Easy" color="rose" />
+        <SectionEyebrow label="Make Maths Easy Classes" color="rose" />
         <h2 className="text-heading-2 font-display mb-4 text-text-primary">
           Learn from a Researcher
         </h2>
