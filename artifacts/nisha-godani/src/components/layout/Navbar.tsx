@@ -6,7 +6,6 @@ import { List } from '@phosphor-icons/react'
 import { navigationItems } from '@/data/navigation'
 import { NavbarLink } from './NavbarLink'
 import { MobileMenu } from './MobileMenu'
-import { ThemeSwitcher } from '@/components/interactive/ThemeSwitcher'
 import { Button } from '@/components/ui/Button'
 import { useMobileMenu } from '@/hooks/useMobileMenu'
 import { cn } from '@/lib/utils'
@@ -63,13 +62,11 @@ export function Navbar() {
 
           <div className="flex items-center gap-3">
             <div className="hidden md:block">
-              {/* <ThemeSwitcher /> */}
-            </div>
-            <div className="hidden md:block">
               <Button href="/contact" variant="secondary" size="sm">
                 Contact
               </Button>
             </div>
+
             <button
               type="button"
               onClick={open}
@@ -83,6 +80,7 @@ export function Navbar() {
           </div>
         </nav>
       </header>
+
       <MobileMenu isOpen={isOpen} onClose={close} />
     </>
   )
