@@ -28,7 +28,7 @@ export const employment: Employment[] = [
     id: 'gla-2017',
     type: 'assistant-professor',
     role: 'Assistant Professor',
-    institution: 'Institute of Applied Sciences and Humanities',
+    institution: 'GLA University, Mathura',
     department: 'Department of Mathematics',
     city: 'Mathura',
     state: 'Uttar Pradesh',
