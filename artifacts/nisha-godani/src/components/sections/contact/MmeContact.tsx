@@ -51,7 +51,7 @@ export function MmeContact() {
       </div>
 
       <p className="mt-6 text-xs text-text-muted">
-        No CV download. No forms. Contact directly.
+        No forms. Contact directly.
       </p>
     </Card>
   )
