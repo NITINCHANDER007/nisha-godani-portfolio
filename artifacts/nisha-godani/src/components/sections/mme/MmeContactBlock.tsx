@@ -37,13 +37,14 @@ export function MmeContactBlock() {
           <MapPin size={20} className="mt-0.5 flex-shrink-0 text-accent-rose" />
           <div>
             <p className="mb-1 text-sm font-semibold text-text-primary">Offline Center</p>
-            <address className="text-sm not-italic text-text-secondary">
-              {personalDetails.contact.mme.address.line1}<br />
-              {personalDetails.contact.mme.address.line2}<br />
-              {personalDetails.contact.mme.address.line3}<br />
-              {personalDetails.contact.mme.address.city} –{' '}
-              {personalDetails.contact.mme.address.pincode}
-            </address>
+            <a
+              href="https://maps.app.goo.gl/2yjdpcEb1L5d1TXv8"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm font-medium text-text-secondary transition-colors hover:text-accent-rose hover:underline"
+            >
+              Make Maths Easy Classes Office
+            </a>
             <a
               href={personalDetails.contact.mme.googleMapsLink}
               target="_blank"
