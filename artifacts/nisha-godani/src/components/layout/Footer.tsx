@@ -75,16 +75,17 @@ export function Footer() {
             </a>
 
             <div className="flex items-start gap-2 text-sm text-text-inverse/60">
-              <MapPin size={16} className="mt-0.5 flex-shrink-0 text-accent-rose" />
-              <address className="not-italic">
-                {personalDetails.contact.mme.address.line1}
-                <br />
-                {personalDetails.contact.mme.address.line2}
-                <br />
-                {personalDetails.contact.mme.address.line3}, {personalDetails.contact.mme.address.city} –{' '}
-                {personalDetails.contact.mme.address.pincode}
-              </address>
-            </div>
+            <MapPin size={16} className="mt-0.5 flex-shrink-0 text-accent-rose" />
+          
+            <a
+              href="https://maps.app.goo.gl/2yjdpcEb1L5d1TXv8"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="not-italic transition-colors hover:text-accent-gold hover:underline"
+            >
+              Make Maths Easy Classes Office
+            </a>
+          </div>
           </div>
         </div>
 
