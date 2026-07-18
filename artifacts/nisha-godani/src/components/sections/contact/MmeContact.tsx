@@ -1,5 +1,4 @@
 import { MapPin, YoutubeLogo } from '@phosphor-icons/react/dist/ssr'
-import { personalDetails } from '@/data/personal'
 import { mmeDetails } from '@/data/mme'
 import { Card } from '@/components/ui/Card'
 import { SectionEyebrow } from '@/components/ui/SectionEyebrow'
@@ -9,9 +8,11 @@ export function MmeContact() {
   return (
     <Card accentColor="rose" className="h-full">
       <SectionEyebrow label="Make Maths Easy Classes" color="rose" />
+
       <h2 className="text-heading-3 font-display mb-2 text-text-primary">
         Class Enquiries &amp; Admissions
       </h2>
+
       <p className="mb-6 text-body text-text-secondary">
         For Make Maths Easy class enquiries, free demo bookings, and batch scheduling.
       </p>
@@ -38,15 +39,15 @@ export function MmeContact() {
 
       <div className="flex items-start gap-2 rounded-[var(--radius-base)] border border-border bg-bg-secondary px-4 py-3.5 text-sm text-text-secondary">
         <MapPin size={18} className="mt-0.5 flex-shrink-0 text-accent-rose" />
-        <address className="not-italic">
-          {personalDetails.contact.mme.address.line1}
-          <br />
-          {personalDetails.contact.mme.address.line2}
-          <br />
-          {personalDetails.contact.mme.address.line3},{' '}
-          {personalDetails.contact.mme.address.city} –{' '}
-          {personalDetails.contact.mme.address.pincode}
-        </address>
+
+        <a
+          href="https://maps.app.goo.gl/2yjdpcEb1L5d1TXv8"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="not-italic transition-colors hover:text-accent-gold hover:underline"
+        >
+          Make Maths Easy Classes Office
+        </a>
       </div>
 
       <p className="mt-6 text-xs text-text-muted">
