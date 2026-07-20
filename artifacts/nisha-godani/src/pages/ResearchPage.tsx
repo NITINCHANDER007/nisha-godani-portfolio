@@ -10,7 +10,7 @@ import { ResearchCTA } from '@/components/sections/research/ResearchCTA'
 export default function ResearchPage() {
   return (
     <PageWrapper>
-      <Breadcrumb items={[{ label: 'Research', href: '/research' }]} />
+      
 
       <ResearchHero />
       <ResearchAreasGrid />
